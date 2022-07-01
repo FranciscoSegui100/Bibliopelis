@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  background-color: #293241;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quever {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quever .boton {
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: #EE6C4D;
+  -webkit-box-shadow: 1px #3D5A80;
+          box-shadow: 1px #3D5A80;
+  color: #E0FBFC;
+  font-size: 35px;
+  font-family: 'Yellowtail', cursive;
+}
+
+.quever a {
+  text-decoration: none;
+}
+
+#peliculas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  color: #E0FBFC;
+  font-family: 'Arima', cursive;
+}
+
+#peliculas .img1 {
+  border-radius: 15px;
+}
+
+#peliculas .peli1, #peliculas .peli2, #peliculas .peli3, #peliculas .peli4, #peliculas .peli5, #peliculas .peli6, #peliculas .peli7, #peliculas .peli8, #peliculas .peli9, #peliculas .peli10, #peliculas .peli11, #peliculas .peli12, #peliculas .peli13, #peliculas .peli14, #peliculas .peli15, #peliculas .peli16, #peliculas .peli17, #peliculas .peli18, #peliculas .peli19 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #EE6C4D;
+  width: 250px;
+  height: auto;
+  line-height: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#peliculas .peli1 .h3, #peliculas .peli2 .h3, #peliculas .peli3 .h3, #peliculas .peli4 .h3, #peliculas .peli5 .h3, #peliculas .peli6 .h3, #peliculas .peli7 .h3, #peliculas .peli8 .h3, #peliculas .peli9 .h3, #peliculas .peli10 .h3, #peliculas .peli11 .h3, #peliculas .peli12 .h3, #peliculas .peli13 .h3, #peliculas .peli14 .h3, #peliculas .peli15 .h3, #peliculas .peli16 .h3, #peliculas .peli17 .h3, #peliculas .peli18 .h3, #peliculas .peli19 .h3 {
+  font-family: 'Gulzar', serif;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#peliculas .paramount {
+  margin-top: 10px;
+}
+
+#peliculas .HBO {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+#peliculas .netflix {
+  margin-top: 10px;
+}
+
+#peliculas .prime-video {
+  margin-top: 10px;
+}
+
+#peliculas .plataformas {
+  text-align: center;
+  background-color: #F4A28D;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
