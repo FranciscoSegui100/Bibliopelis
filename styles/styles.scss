@@ -6,17 +6,21 @@
 }
   #body{
     background-color: #293241;
-  }
-  .logo{
-    display: flex;
-    justify-content: center;
-  }
-  .quever{
-    display: flex;
-    justify-content: center;
-      .boton{
-          text-align: center;
-          padding: 10px;
+    #header{
+        padding: 40px;
+        border-bottom: solid #EE6C4D;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .quever{
+        display: flex;
+        justify-content: center;
+        .boton{
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
           border-radius: 15px;
           font-size: 20px;
           background-color: #EE6C4D;
@@ -26,28 +30,68 @@
           font-family: 'Yellowtail', cursive;
         }
     }
-        .quever a{
-            text-decoration: none;
-        }
-   #peliculas{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding: 15px;
-    margin-top: 20px;
-    color: #E0FBFC;
-    font-family: 'Arima', cursive;
-    .img1{
-        border-radius: 15px;
+    .quever a{
+        text-decoration: none;
     }
-    .peli1{
+    #peliculas{
         display: flex;
-        flex-direction: column;
-        background-color: #EE6C4D;
-        width: 250px;
-        height: auto;
-        line-height: 18px;
-        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+        margin-top: 20px;
+        color: #E0FBFC;
+        font-family: 'Arima', cursive;
+        #filtros{
+            display: flex;
+            justify-content: start;
+            background-color: #3D5A80;
+            list-style: none;
+            padding: 10px;
+            .ul{
+                list-style: none;
+                text-decoration: none;
+                .l1{
+                    background-color: #EE6C4D;
+                    padding: 5px;
+                    border-radius: 25px ;
+                    color: #3D5A80;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .l1:hover{
+                    background-color: #293241;
+                }
+                
+                .l2{
+                    @extend .l1;
+                }
+                .l3{
+                    @extend .l1;
+                }
+                .l4{
+                    @extend .l1;
+                }
+                
+            }
+            .ul a{
+                list-style: none;
+                text-decoration: none;
+                color: #E0FBFC;
+            }
+                
+         }
+            .img1{
+            border-radius: 15px;
+        }
+        .peli1{
+            display: flex;
+            flex-direction: column;
+            background-color: #EE6C4D;
+            width: 250px;
+            height: auto;
+            line-height: 18px;
+            padding: 10px;
         border-radius: 10px;
         .h3{
             font-family: 'Gulzar', serif;
@@ -57,7 +101,7 @@
             margin-bottom: 15px;
         }
     }
-    .paramount{
+    /*.paramount{
         margin-top: 10px;
     }
     .HBO{
@@ -69,12 +113,14 @@
     }
     .prime-video{
         margin-top: 10px;
+    }*/
+    .plataformas{
+        text-align: center;
+        background-color: #F4A28D;
+        padding: 5px;
+        margin-top: 10px;
+        
     }
-        .plataformas{
-            text-align: center;
-            background-color: #F4A28D;
-            margin-top: 15px;
-        }
     .peli2{
         @extend .peli1;
     }
@@ -90,44 +136,5 @@
     .peli6{
         @extend .peli1;
     }
-    .peli7{
-        @extend .peli1;
-    }
-    .peli8{
-        @extend .peli1; 
-    }
-    .peli9{
-        @extend .peli1; 
-    }
-    .peli10{
-        @extend .peli1; 
-    }
-    .peli11{
-        @extend .peli1; 
-    }
-    .peli12{
-        @extend .peli1; 
-    }
-    .peli13{
-        @extend .peli1; 
-    }
-    .peli14{
-        @extend .peli1; 
-    }
-    .peli15{
-        @extend .peli1; 
-    }
-    .peli16{
-        @extend .peli1; 
-    }
-    .peli17{
-        @extend .peli1; 
-    }
-    .peli18{
-        @extend .peli1; 
-    }
-    .peli19{
-        @extend .peli1; 
-    }
-  
-}     
+ }     
+}
